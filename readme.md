@@ -39,7 +39,7 @@ Under the General tab in Security & Privacy settings, select **Allow** for Falco
 ![Allow System Extension](https://github.com/TPower2112/Writing-Sample-2/blob/gh-pages/assets/images/System-Extension-2.png)
 
 #### C. Approving Full Disk Access <a name="fda"></a>
-Full disk access is recommended for Mojave operating system and is required for Catalina and later. The end user must grant full disk access on each host. Administrator account permission is required.  Please follow the instructions below:
+Full disk access is recommended for Mojave operating system and is required for Catalina and later. The end user must grant full disk access on the host. Administrator account permission is required.  Please follow the instructions below:
 
 1. Select the Apple icon and Open System Perferences, then click Security & Privacy.
 2. On the Privacy tab, if privacy settings are locked, select the lock icon and specify the          passoword.
