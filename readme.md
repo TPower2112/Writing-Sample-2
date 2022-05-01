@@ -25,6 +25,15 @@ If your Mac endpoint is not enrolled in JAMF, the end user must choose the corre
 ### What is the User Experience for endpoints not enrolled in JAMF <a name="uxnotjamf"></a>
 The upgrade to the latest sensor occurs silently in the background with no restart or reboot required.  The end user will have to enable the following three prompts.
 #### A. Approving Network Content Filtering <a name="netcon"></a>
-The end user must allow the Falcon sensor to filter network content:
+The end user must allow the Falcon sensor to filter network content. Please select **Allow** from the prompt below:
 
+![Network Content Filter](https://github.com/TPower2112/Writing-Sample-2/blob/gh-pages/assets/images/Network-Content-Filter.png)
 
+#### B. Approving System Extension <a name="sysext"></a>
+Apple implemented system extensions instead of kernel extensions in Big Sur.  The end user will see the following prompt and must open Security Preferences. 
+
+![Security Preferences](https://github.com/TPower2112/Writing-Sample-2/blob/gh-pages/assets/images/System-Extension.png)
+
+Under the General tab in Security & Privacy settings, select **Allow** for Falcon application.
+
+![Allow System Extension](https://github.com/TPower2112/Writing-Sample-2/blob/gh-pages/assets/images/System-Extension-2.png)
