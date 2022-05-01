@@ -20,10 +20,8 @@ Prior to ugprading a Mac endpoint to Big Sur, CrowdStrike version 6.11 and above
 
 Please note if your workstation is managed by UBCIT or OKIT JAMF service, the three options concerning enabling Network Filtering, the CrowdStrike Security Extension, and Full Disk Access are set automatically in the JAMF MDM profile.
 
-If your Mac endpoint is not enrolled in JAMF, the end user must choose the correct option in order for CrowdStrike to function properly.
-
 ### The User Experience for endpoints not enrolled in JAMF <a name="uxnotjamf"></a>
-The upgrade to the latest sensor occurs silently in the background with no restart or reboot required.  The end user will have to enable the following three prompts.
+The upgrade to the latest sensor occurs silently in the background with no restart or reboot required.  The end user must enable the following three prompts.
 #### A. Approving Network Content Filtering <a name="netcon"></a>
 The end user must allow the Falcon sensor to filter network content. Please select **Allow** from the prompt below:
 
