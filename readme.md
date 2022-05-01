@@ -49,6 +49,7 @@ Full disk access is recommended for Mojave operating system and is required for 
 
 ### The Apple "Falcon Notifications" Prompt <a name="appfalc"></a>
 The Falcon Notifications notifications prompt is displayed at the end of the installation.  Security Operations recommends the end user to select **Allow**.
+
 ![Allow Falcon Notifications](https://github.com/TPower2112/Writing-Sample-2/blob/gh-pages/assets/images/Notification-JAMF-CSInstall-Allow.jpg)
 
 ### What happens if an end user chooses an incorrect prompt <a name="incor"></a>
