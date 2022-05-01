@@ -25,4 +25,6 @@ If your Mac endpoint is not enrolled in JAMF, the end user must choose the corre
 ### What is the User Experience for endpoints not enrolled in JAMF <a name="uxnotjamf"></a>
 The upgrade to the latest sensor occurs silently in the background with no restart or reboot required.  The end user will have to enable the following three prompts.
 #### A. Approving Network Content Filtering <a name="netcon"></a>
+The end user must allow the Falcon sensor to filter network content:
+
 
