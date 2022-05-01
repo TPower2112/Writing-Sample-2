@@ -16,7 +16,7 @@
 4. [What happens if an end user chooses an incorrect prompt?](#incor)
 
 ### Why is this document important? <a name="docimport"></a>
-After ugprading a Mac endpoint to Big Sur, CrowdStrike version 6.11 and above is required. M1 hardware support is scheduled for Q1 2021.  This document illustrates the correct security options the user must choose to provide protection on the endpoint.
+Prior to ugprading a Mac endpoint to Big Sur, CrowdStrike version 6.11 and above is required. M1 hardware support is scheduled for Q1 2021.  This document illustrates the correct security options the user must choose to provide protection on the endpoint.
 
 Please note if your workstation is managed by UBCIT or OKIT JAMF service, the three options concerning enabling Network Filtering, the CrowdStrike Security Extension, and Full Disk Access are set automatically in the JAMF MDM profile.
 
