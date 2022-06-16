@@ -28,7 +28,7 @@ The end user must allow the Falcon sensor to filter network content. Please sele
 ![Network Content Filter](https://github.com/TPower2112/Writing-Sample-2/blob/gh-pages/assets/images/Network-Content-Filter.png)
 
 #### B. Approving System Extension <a name="sysext"></a>
-Apple implemented system extensions instead of kernel extensions in Big Sur.  The end user will see the following prompt and must open Security Preferences.
+Apple implemented [system extensions](https://support.apple.com/en-ca/guide/deployment/depa5fb8376f/web) instead of kernel extensions in Big Sur.  The end user will see the following prompt and must open Security Preferences.
 
 ![Security Preferences](https://github.com/TPower2112/Writing-Sample-2/blob/gh-pages/assets/images/System-Extension.png)
 
