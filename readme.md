@@ -18,7 +18,7 @@
 ### Why is this document important? <a name="docimport"></a>
 Prior to upgrading a Mac endpoint to Big Sur, CrowdStrike version 6.11 and above is required. M1 hardware support is scheduled for Q1 2021.  This document illustrates the correct security options the user must choose to provide protection on the endpoint.
 
-Please note if your workstation is managed by UBCIT or OKIT JAMF service, the three options concerning enabling Network Filtering, the CrowdStrike Security Extension, and Full Disk Access are set automatically in the JAMF MDM profile.
+If your workstation is managed by UBCIT or OKIT JAMF service, the three options concerning enabling Network Filtering, the CrowdStrike Security Extension, and Full Disk Access are set automatically in the JAMF MDM profile.
 
 ### The User Experience for endpoints not enrolled in JAMF <a name="uxnotjamf"></a>
 The upgrade to the latest sensor occurs silently in the background with no restart or reboot required.  The end user must enable the following three prompts.
