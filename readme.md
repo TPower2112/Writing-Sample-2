@@ -3,7 +3,7 @@
 
 
 ## Table Of Contents
-1. [Why is this document important?](#docimport)
+1. [Objective](#docimport)
 2. [The User Experience for endpoints not enrolled in JAMF](#uxnotjamf)
 
     A. [Approving Network Content Filtering](#netcon)
@@ -40,7 +40,7 @@ Under the General tab in Security & Privacy settings, select **Allow** for Falco
 Full disk access is recommended for Mojave operating system and is required for Catalina and later. The end user must grant full disk access on the host. Administrator account permission is required.  Please follow the instructions below:
 
 1. Select the Apple icon and Open System Perferences, then click Security & Privacy.
-2. On the Privacy tab, if privacy settings are locked, select the lock icon and specify the          password.
+2. On the Privacy tab, if privacy settings are locked, select the lock icon and specify the password.
 3. In the left pane, select Full Disk Access.
 4. In the right pane, select the plus icon and the check box next to Agent.
 ![Allow Full Disk](https://github.com/TPower2112/Writing-Sample-2/blob/gh-pages/assets/images/FDA-Agent.png)
