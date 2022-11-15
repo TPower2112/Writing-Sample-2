@@ -15,7 +15,7 @@
 3. [The Apple "Falcon Notifications" Prompt](#appfalc)
 4. [What happens if an end user chooses an incorrect prompt?](#incor)
 
-### Why is this document important? <a name="docimport"></a>
+### Objective <a name="docimport"></a>
 Prior to upgrading a Mac endpoint to Big Sur, CrowdStrike version 6.11 and above is required. M1 hardware support is scheduled for Q1 2021.  This document illustrates the correct security options the user must choose to provide protection on the endpoint.
 
 If your workstation is managed by UBCIT or OKIT JAMF service, the three options concerning enabling Network Filtering, the CrowdStrike Security Extension, and Full Disk Access are set automatically in the JAMF MDM profile.
