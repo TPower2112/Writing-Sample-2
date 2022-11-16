@@ -16,9 +16,9 @@
 4. [What happens if an end user chooses an incorrect prompt?](#incor)
 
 ### Objective <a name="docimport"></a>
-Prior to upgrading a Mac endpoint to Big Sur, CrowdStrike version 6.11 and above is required. M1 hardware support is scheduled for Q1 2021.  This document illustrates the correct security options the user must choose to provide protection on the endpoint.
+This document illustrates the correct security options the user must choose to provide protection on an endpoint that is not enrolled in JAMF.
 
-If your workstation is managed by UBCIT or OKIT JAMF service, the three options concerning enabling Network Filtering, the CrowdStrike Security Extension, and Full Disk Access are set automatically in the JAMF MDM profile.
+If a workstation is managed by JAMF, the three options for enabling Network Filtering, the CrowdStrike Security Extension, and Full Disk Access, are set automatically in the MDM profile.
 
 ### The User Experience for endpoints not enrolled in JAMF <a name="uxnotjamf"></a>
 The upgrade to the latest sensor occurs silently in the background with no restart or reboot required.  The end user must enable the following three prompts.
@@ -37,7 +37,7 @@ Under the General tab in Security & Privacy settings, select **Allow** for Falco
 ![Allow System Extension](https://github.com/TPower2112/Writing-Sample-2/blob/gh-pages/assets/images/System-Extension-2.png)
 
 #### C. Approving Full Disk Access <a name="fda"></a>
-Full disk access is recommended for Mojave operating system and is required for Catalina and later. The end user must grant full disk access on the host. Administrator account permission is required.  Please follow the instructions below:
+Full disk access is required for Catalina and later operating systems. The end user must grant full disk access on the host. Administrator account permission is required.  Please follow the instructions below to enable full disk access:
 
 1. Select the Apple icon and Open System Perferences, then click Security & Privacy.
 2. On the Privacy tab, if privacy settings are locked, select the lock icon and specify the password.
